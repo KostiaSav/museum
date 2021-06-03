@@ -17,4 +17,5 @@ function scenesMouseOver(numbers){
 
 function scenesMouseOut(numbers){
     loupe[numbers].style.opacity = 0;
+
 }
