@@ -32,7 +32,6 @@ if(menuLinks.length > 0){
         if(menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)){
             const gotoBlock = document.querySelector(menuLink.dataset.goto);
             const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset;
-            console.log(gotoBlockValue);
 
             window.scrollTo({
                 top: gotoBlockValue,
