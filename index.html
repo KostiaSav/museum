@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Большой музей</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <div class="burger_fixed">
+                <div class="burger_menu">
+                    <span class="burger"></span>
+                </div>
+            </div>
+            <nav class="container">
+                <li><a href="#">Главное</a></li>
+                <li><a href="#">О театре</a></li> 
+                <li><a href="#">Наши постановы</a></li> 
+                <li><a href="#">Партнеры театра</a></li> 
+                <li><a href="#">Контакты</a></li>
+                <li id="callNumber"><span>+7 495 123-45-67</span></li>
+            </nav>
+
+            <div class="first_menu">
+                <div class="info">
+                    <h1>Большой театр</h1>
+                    <h2>Большой театр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</h2>
+                    <button>АФИША</button>
+                </div>
+                <div class="img">
+                    <img src="img/image.jpg" alt="">
+                    </div>
+                </div>
+            </header>
+
+            <div class="about_block">
+                <h1 class="name_block"><span class="gold_span">О</span> театре</h1>
+                <div class="about">
+                    <div class="text_about">
+                        <h2>Самый лучший театр СПБ</h2>
+                        <span>Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</span>
+                    </div>
+                    <div class="icon_about">
+                        <h2>Немного о цифрах</h2>
+                        <div class="img_blocks">
+                            <div>
+                                <img src="img/armchair1.png" alt="">
+                                <h6><span class="gold_span">1600</span> посадочный мест</h6>
+                            </div>
+                            <div>
+                                <img src="img/theater.png" alt="">
+                                <h6><span class="gold_span">350</span> лет истории</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_about">
+                        <img src="img/aboutFirst.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="our_scene">
+                <h1 class="name_block"><span class="gold_span">Наши</span> постановы</h1>
+                <div class="scenes">
+                    <div onmouseover="scenesMouseOver(0)" onmouseout="scenesMouseOut(0)">
+                        <img class='loupe_scene' src="img/Loupe.png" alt="">
+                        <img class="first_scenes" src="img/projects__item.png" alt="">
+                    </div>
+                    <div onmouseover="scenesMouseOver(1)" onmouseout="scenesMouseOut(1)">
+                        <img class='loupe_scene' src="img/Loupe.png" alt="">
+                        <img class="first_scenes" src="img/projects__item2.png" alt="">
+                    </div>
+                    <div onmouseover="scenesMouseOver(2)" onmouseout="scenesMouseOut(2)">
+                        <img class='loupe_scene' src="img/Loupe.png" alt="">
+                        <img class="first_scenes" src="img/projects__item3.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="comments_block">
+
+                <div class="years">
+                    <h1 class="gold_span years_comment"> 2019</h1>
+                    <h1 class="gold_span years_comment"> 2020</h1>
+                    <h1 class="gold_span years_comment"> 2021</h1>
+                </div>
+                <div class="comments">
+                    <img src="img/stars.png" alt="">
+                    <h2>Лучший театр по мнению театральных критиков Парижа</h2>
+                </div>
+            </div>
+
+            <div class="partners_block">
+                <h1 class="name_block"><span class="gold_span">Партнеры</span> театра</h1>
+                <div class="partners">
+                    <img src="img/logo_partners.png" alt="">
+                    <img src="img/logo_partners.png" alt="">
+                    <img src="img/logo_partners.png" alt="">
+                    <img src="img/logo_partners.png" alt="">
+                    <img src="img/logo_partners.png" alt="">
+                    <img src="img/logo_partners.png" alt="">
+                    <img src="img/logo_partners.png" alt="">
+                    <img src="img/logo_partners.png" alt="">
+                </div>
+            </div>
+
+            <div class="patron">
+                <h1 class="name_block"><span class="gold_span">Стать</span> меценатом</h1>
+                <div class="info_pathon">
+                    <div class="contacts">
+                        <h2>+7 (812) 123-45-55</h2>
+                        <h2>+7 (812) 123-45-66</h2>
+                        <h2>INFO@THEATRE.RU</h2>
+                        <h2>Г. САНКТ-ПЕТЕРБУРГ, НЕВСКИЙ 140</h2>
+                    </div>
+                    <div class="input_patron">
+                        <input type="text" placeholder="Имя" class="input-1">
+                        <input type="text" placeholder="Компания" class="input-2">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Сообщения" class="textarea-1"></textarea>
+                        <input type="text" placeholder="Телефон" class="input-3">
+                        <input type="text" placeholder="Email" class="input-4">
+                        <div class="btn_info_block">
+                            <span>* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</span>
+                            <button>Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <span>(с) Все права защищены. Большой театр. 2020</span>
+            </footer>
+
+    <script src="plugin.js"></script>
+</body>
+</html>
